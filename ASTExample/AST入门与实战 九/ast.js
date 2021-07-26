@@ -10,7 +10,7 @@ const traverse = require("@babel/traverse").default;
 const t = require("@babel/types");
 const generator = require("@babel/generator").default;
 
-let jscode = fs.readFileSync("./before.js", {
+let jscode = fs.readFileSync("./before1.js", {
     encoding: "utf-8"
 });
 
